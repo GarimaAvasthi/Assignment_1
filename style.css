@@ -27,6 +27,7 @@ html { scroll-behavior: smooth; }
 body {
     background: var(--bg);
     color: var(--text);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* NAVBAR */
@@ -41,18 +42,22 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    border-bottom: 1px solid rgba(0,0,0,0.08);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
+/* Logo */
 .logo {
     font-size: 28px;
     font-weight: 800;
+    text-decoration: none;
+    color: var(--text);
 }
 
 .logo span {
     color: var(--accent);
 }
 
+/* Right nav */
 .nav-right {
     display: flex;
     align-items: center;
@@ -70,19 +75,31 @@ body {
     font-weight: 600;
     text-decoration: none;
     color: var(--text);
+    transition: color 0.25s ease;
 }
 
+/* Nav link hover */
+.nav-links a:hover {
+    color: var(--accent);
+}
+
+/* Theme toggle */
 .theme-toggle {
     border: none;
     background: none;
     font-size: 20px;
     cursor: pointer;
+    color: var(--text);
 }
 
+/* Hamburger */
 .hamburger {
     display: none;
     font-size: 26px;
     cursor: pointer;
+    background: none;
+    border: none;
+    color: var(--text);
 }
 
 /* HERO */
@@ -115,6 +132,7 @@ body {
     margin-bottom: 36px;
 }
 
+/* CTA BUTTON */
 .cta-btn {
     padding: 16px 42px;
     background: var(--accent);
@@ -123,7 +141,8 @@ body {
     border-radius: 30px;
     font-weight: 600;
     cursor: pointer;
-
+    text-decoration: none;
+    display: inline-block;
 }
 
 .hero-visual img {
@@ -167,11 +186,11 @@ body {
     margin-bottom: 10px;
 }
 
-/* CONTACT – PROFESSIONAL */
+/* CONTACT */
 .contact {
-    padding: 50px ;
+    padding: 50px;
     text-align: center;
-    background: linear-gradient(rgba(161, 91, 22, 0.778));
+    background: linear-gradient(135deg, #a15b16, #7c3e00);
     color: white;
 }
 
@@ -218,6 +237,7 @@ body {
         display: none;
         position: absolute;
         top: 72px;
+        left: 0;
         width: 100%;
         background: var(--bg);
         flex-direction: column;
@@ -233,6 +253,7 @@ body {
         display: block;
     }
 }
+
 /* ===============================
    BUTTON MICRO-INTERACTIONS
    =============================== */
@@ -244,7 +265,7 @@ body {
 
 .cta-btn:hover {
     transform: scale(1.06);
-    background-color: #1d4ed8; /* slightly darker blue */
+    background-color: #1d4ed8;
 }
 
 /* ===============================

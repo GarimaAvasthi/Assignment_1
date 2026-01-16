@@ -1,13 +1,23 @@
-const toggle = document.getElementById("themeToggle");
+const themeToggleBtn = document.getElementById("themeToggle");
 const body = document.body;
 const hamburger = document.getElementById("hamburger");
-const navLinks = document.getElementById("navLinks");
+const navLinks = document.getElementById("nav-links");
 
-toggle.addEventListener("click", () => {
+themeToggleBtn.addEventListener("click", () => {
     body.classList.toggle("dark");
-    toggle.textContent = body.classList.contains("dark") ? "☀️" : "🌙";
+
+    const isDark = body.classList.contains("dark");
+    themeToggleBtn.textContent = isDark ? "☀️" : "🌙";
+    themeToggleBtn.setAttribute(
+        "aria-label",
+        isDark ? "Switch to light mode" : "Switch to dark mode"
+    );
 });
 
 hamburger.addEventListener("click", () => {
     navLinks.classList.toggle("show");
+});
+
+navLinks.addEventListener("click", () => {
+    navLinks.classList.remove("show");
 });
