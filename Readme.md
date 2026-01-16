@@ -1,6 +1,7 @@
 # Prodesk IT – Digital Agency Website
 
-A modern, responsive digital agency website with a clean and futuristic UI, designed to showcase frontend fundamentals such as layout design, responsiveness, dark mode, and micro-interactions using pure HTML, CSS, and JavaScript.
+This project is a professional, responsive landing page developed for a fictional digital agency named Prodesk IT.  
+It was created as part of a Internship Assignment to demonstrate strong fundamentals in HTML, CSS layouts, responsiveness, and basic JavaScript interactions, without relying on frontend frameworks.
 
 ---
 
@@ -21,8 +22,28 @@ A modern, responsive digital agency website with a clean and futuristic UI, desi
 - **Interactivity:** DOM manipulation using JavaScript
 
 ---
+## Project Structure
 
-## Getting Started
+Assignment_1/
+│
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│ └── images/
+│ ├── image_1.jpg
+│ ├── image_2.jpg
+│ ├── image_3.jpg
+│ └── image_4.jpg
+├── README.md
+└── Prompts.md
+
+## Assets and Credits
+
+- Images used in this project are sourced from **Unsplash** under their free license.
+- All images are stored locally to improve performance, reliability, and offline accessibility.
+
+## Getting Started 
 
 ### Prerequisites
 
@@ -37,7 +58,33 @@ A modern, responsive digital agency website with a clean and futuristic UI, desi
 1. **Clone the repository**
    git clone https://github.com/GarimaAvasthi/Assignment_1.git
 
-2. **cd prodesk-it-website**
-   cd prodesk-it-website
+2. Open the project folder
+3. Open `index.html` in any modern web browser  
+(Alternatively, use Live Server in Visual Studio Code)
+
+No additional setup or dependencies are required.
+
+---
+
+## Submission Notes
+
+- The project meets all **Level 2 (Intermediate)** requirements of the assignment
+- Code is structured, readable, and maintainable
+- JavaScript usage is minimal and purpose-driven
+- Color system and spacing are consistent across sections
+
+---
+
+## Author
+
+Garima Avasthi  
+Frontend Development Intern Candidate
+
+---
+
+## Status
+
+Completed  
+Ready for evaluation
 
 
