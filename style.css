@@ -153,20 +153,26 @@ body {
 }
 
 /* SERVICES8 & WHY US */
-.services, .why-us {
-    padding: 100px 60px;
-    text-align: center;
+.services {
+    padding: 100px 60px 60px; 
 }
+
+.why-us {
+    padding: 40px 60px 100px; 
+}
+
+
 
 .services h2, .why-us h2 {
     font-size: 36px;
     margin-bottom: 60px;
+
 }
 
 .service-cards, .why-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 36px;
+    gap: 30px;
 }
 
 .service-card, .why-card {
@@ -280,9 +286,7 @@ body {
     }
 }
 
-/* ===============================
-   BUTTON MICRO-INTERACTIONS
-   =============================== */
+/* BUTTON MICRO-INTERACTIONS */
 
 .cta-btn,
 .theme-toggle {

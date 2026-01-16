@@ -4,6 +4,9 @@ This project is a professional, responsive landing page developed for a fictiona
 It was created as part of a Internship Assignment to demonstrate strong fundamentals in HTML, CSS layouts, responsiveness, and basic JavaScript interactions, without relying on frontend frameworks.
 
 ---
+The project is deployed on Vercel and can be accessed at:
+https://assignment-1-seven-rho.vercel.app/
+
 
 ## Features
 
@@ -24,19 +27,33 @@ It was created as part of a Internship Assignment to demonstrate strong fundamen
 ---
 ## Project Structure
 
+```
 Assignment_1/
-│
 ├── index.html
 ├── style.css
 ├── script.js
-├── assets/
-│ └── images/
-│ ├── image_1.jpg
-│ ├── image_2.jpg
-│ ├── image_3.jpg
-│ └── image_4.jpg
+├── images/
+│   ├── image_1.jpg
+│   ├── image_2.jpg
+│   ├── image_3.jpg
+│   └── image_4.jpg
+├── project-images/
+│   ├── home.png
+│   ├── service.png
+│   ├── about.png
+│   ├── contact.png
+│   └── dark.png
 ├── README.md
 └── Prompts.md
+```
+
+## Screenshsots 
+![Homepage Screenshot](Project_images/home.png)
+![Services Screenshot](Project_images/service.png)
+![About us Screenshot](Project_images/about.png)
+![Contact usScreenshot](Project_images/contact.png)
+![Dark modeScreenshot](Project_images/dark.png)
+
 
 ## Assets and Credits
 
